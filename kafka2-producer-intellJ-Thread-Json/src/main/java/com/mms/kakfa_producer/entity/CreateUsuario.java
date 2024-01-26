@@ -1,4 +1,4 @@
-package com.mms.kakfa_producer;
+package com.mms.kakfa_producer.entity;
 
 import java.util.Random;
 import java.util.UUID;

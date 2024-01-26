@@ -1,6 +1,7 @@
-package com.mms.kakfa_consumer;
+package com.mms.kakfa_consumer.app;
 
-import org.springframework.boot.autoconfigure.gson.GsonAutoConfiguration;
+import com.mms.kakfa_consumer.entity.Usuario;
+import com.mms.kakfa_consumer.repository.UsuarioRepository;
 import org.springframework.kafka.annotation.EnableKafka;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Component;

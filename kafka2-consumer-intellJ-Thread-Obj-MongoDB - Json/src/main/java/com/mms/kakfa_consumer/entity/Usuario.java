@@ -1,8 +1,10 @@
-package com.mms.kakfa_producer;
+package com.mms.kakfa_consumer.entity;
 
 import lombok.Data;
+import org.springframework.data.mongodb.core.mapping.Document;
 
 @Data
+@Document(collection = "Usuario")
 public class Usuario {
 
     private String nombre;
