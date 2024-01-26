@@ -24,7 +24,6 @@ public class KafkaMessageConsumer {
 
 			Gson gson = new Gson();
 			Usuario usuario = gson.fromJson(message, Usuario.class);
-
 			//System.out.println("usuario message: " + usuario.toString());
 
 			Usuario usuarioSaved = usuarioRepository.save(usuario);
